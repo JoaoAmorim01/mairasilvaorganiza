@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAF8F5;
+    /* Tom de off-white acolhedor */
+    color: #3C3633;
+    /* Marrom escuro para texto */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lora', serif;
+}
+
+.text-brand-primary {
+    color: #A98A78;
+}
+
+/* Tom de bege/marrom claro */
+.bg-brand-primary {
+    background-color: #A98A78;
+}
+
+.bg-brand-secondary {
+    background-color: #E0D8D3;
+}
+
+/* Tom de bege mais claro */
+.btn-primary {
+    @apply bg-brand-primary text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-opacity-90 transition-transform transform hover:scale-105;
+}
+
+.high-contrast {
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+
+.high-contrast h1,
+.high-contrast h2,
+.high-contrast p,
+.high-contrast a,
+.high-contrast div,
+.high-contrast span {
+    color: #FFF !important;
+}
+
+.high-contrast .bg-brand-primary,
+.high-contrast .bg-brand-secondary {
+    background-color: #333 !important;
+    border: 1px solid yellow;
+}
+
+#whatsapp{
+    height: 24px;
+    width: 24px;
+}
+
+#mairaProfissional{
+    height: 70%;
+    width: 70%;
+    
+}
